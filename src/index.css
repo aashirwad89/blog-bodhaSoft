@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.nav-left a{
+  text-decoration: none;
+  margin-left: 10px;
+   color: black;
+  font-size: 1.2rem;
+}
+.nav-right a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.Home{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 10px 10px;
+}
+.right h1{
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: cursive;
+}
+.right p{
+  font-weight: 300;
+  margin-top: 10px;
+  color: gray;
+  font-size: 1.4rem;
+}
+.right button{
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: aliceblue;
+  font-size: 1.2rem;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.left img{
+ border-radius: 30px;
+ border: 1px solid black;
+ object-fit: contain;
+}
+
